@@ -53,3 +53,32 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+/mbed-examples
+*.pdf
+
+
+# Eclipse
+.metadata
+.settings
+.settings/**
+[Rr]elease
+[Dd]ebug
+.launch
+.mxproject
+.project
+.cproject
+
+
+*.ld
+.vscode
+/libopencm3
+
+blinky/.settings
+stm32f4xx_hal_*.cyclo
+*/Debug/*
+
+blinky/.settings
+blinky.ioc
+/blinky
